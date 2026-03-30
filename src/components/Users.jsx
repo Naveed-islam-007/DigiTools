@@ -13,15 +13,15 @@ const Users = () => {
                 <div className="hidden sm:block divider divider-horizontal divider-start"></div>
 
                 <div className='text-center'>
-                    <h1 className='text-4xl lg:text-5xl font-bold text-white'>50k</h1>
-                    <p className='text-white text-lg lg:text-2xl'>Active Users</p>
+                    <h1 className='text-4xl lg:text-5xl font-bold text-white'>200k</h1>
+                    <p className='text-white text-lg lg:text-2xl'>Premium Tools</p>
                 </div>
 
                 <div className="hidden sm:block divider divider-horizontal divider-start"></div>
 
                 <div className='text-center'>
-                    <h1 className='text-4xl lg:text-5xl font-bold text-white'>50k</h1>
-                    <p className='text-white text-lg lg:text-2xl'>Active Users</p>
+                    <h1 className='text-4xl lg:text-5xl font-bold text-white'>4.9</h1>
+                    <p className='text-white text-lg lg:text-2xl'>Rating</p>
                 </div>
 
             </div>

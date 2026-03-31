@@ -13,7 +13,7 @@ const Started = () => {
             </div>
 
 
-            <div className='grid grid-cols-1 min-h-[380px] w-full space-y-5 md:grid-cols-3 md:w-3/4 md:mx-auto'>
+            <div className='grid grid-cols-1 min-h-[380px] w-full space-x-5 md:grid-cols-3 md:w-3/4 md:mx-auto'>
                 <div className='rounded-xl flex flex-col justify-center items-center gap-5 shadow-xl'>
                     < div className='border rounded-full p-5 bg-purple-300'>
                         <img src={UserImg} alt="" className='h-25 w-25'/>
@@ -47,13 +47,9 @@ const Started = () => {
                 </div>
 
 
-                <div>
+                
 
-                </div>
-
-                <div>
-
-                </div>
+               
                 
             </div>
 

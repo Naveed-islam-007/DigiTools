@@ -3,6 +3,7 @@
 import './App.css'
 import Navbar from './components/Navbar'
 import Pricing from './components/Pricing'
+import Products from './components/Products'
 import Started from './components/Started'
 import Users from './components/Users'
 import Banner from './components/banner'
@@ -16,6 +17,7 @@ function App() {
     <Navbar></Navbar>
     <Banner></Banner>
      <Users></Users>
+     <Products></Products>
      <Started></Started>
      <Pricing></Pricing>
 

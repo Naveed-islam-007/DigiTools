@@ -1,0 +1,69 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with modern templates and ATS optimization.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Website Kit",
+    "description": "Build a stunning personal portfolio with ready-to-use components.",
+    "price": 29.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Responsive design", "Custom domains", "SEO optimized"],
+    "icon": "🌐"
+  },
+  {
+    "id": 3,
+    "name": "Job Tracker",
+    "description": "Track your job applications and manage interviews efficiently.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Application tracking", "Interview reminders", "Analytics dashboard"],
+    "icon": "📊"
+  },
+  {
+    "id": 4,
+    "name": "AI Cover Letter Generator",
+    "description": "Generate personalized cover letters using AI in seconds.",
+    "price": 7.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["AI writing assistant", "Multiple formats", "Instant export"],
+    "icon": "✉️"
+  },
+  {
+    "id": 5,
+    "name": "LinkedIn Optimizer",
+    "description": "Improve your LinkedIn profile visibility and engagement.",
+    "price": 14.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": ["Profile analysis", "Keyword suggestions", "Growth tips"],
+    "icon": "💼"
+  },
+  {
+    "id": 6,
+    "name": "Coding Interview Prep",
+    "description": "Prepare for technical interviews with curated coding challenges.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["500+ problems", "Mock interviews", "Solutions explained"],
+    "icon": "💻"
+  }
+ 
+]

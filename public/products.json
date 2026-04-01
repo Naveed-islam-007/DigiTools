@@ -8,7 +8,7 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["100+ templates", "ATS optimization", "Export to PDF"],
-    "icon": "📄"
+    "icon": "https://i.ibb.co.com/Zz3WRbWk/design-tool.png"
   },
   {
     "id": 2,
@@ -19,7 +19,7 @@
     "tag": "best seller",
     "tagType": "best seller",
     "features": ["Responsive design", "Custom domains", "SEO optimized"],
-    "icon": "🌐"
+    "icon": "https://i.ibb.co.com/N2rg5mYN/operation.png"
   },
   {
     "id": 3,
@@ -30,7 +30,7 @@
     "tag": "new",
     "tagType": "new",
     "features": ["Application tracking", "Interview reminders", "Analytics dashboard"],
-    "icon": "📊"
+    "icon": "https://i.ibb.co.com/WNgTFMjG/portfolio.png"
   },
   {
     "id": 4,
@@ -41,7 +41,7 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["AI writing assistant", "Multiple formats", "Instant export"],
-    "icon": "✉️"
+    "icon": "https://i.ibb.co.com/dsmFpz4L/shopping-cart.png"
   },
   {
     "id": 5,
@@ -52,7 +52,7 @@
     "tag": "best seller",
     "tagType": "best seller",
     "features": ["Profile analysis", "Keyword suggestions", "Growth tips"],
-    "icon": "💼"
+    "icon": "https://i.ibb.co.com/jZyxwhQQ/social-media.png"
   },
   {
     "id": 6,
@@ -63,7 +63,7 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["500+ problems", "Mock interviews", "Solutions explained"],
-    "icon": "💻"
+    "icon": "https://i.ibb.co.com/C3wSsJS0/writing-2327400-1.png"
   }
  
 ]

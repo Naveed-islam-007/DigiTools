@@ -1,7 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Check } from 'lucide-react';
 
-const ProductCard = ({ product }) => {
+const ProductCard = ({ product,cart,setCart }) => {
+
+  const handleCart=()=>{
+    setSelected(true)
+     const isFound = cart.find((item) => item.id === product.id);
+     if(isFound){
+      return;
+     }
+     setCart([...cart,product])
+
+  }
+
+  const [selected, setSelected] = useState(false);
+
+
   return (
     <div className="card w-full bg-base-200 shadow-sm h-full">
       <div className="card-body p-4 flex flex-col">
@@ -30,8 +44,8 @@ const ProductCard = ({ product }) => {
         </ul>
 
         <div className='mt-10'>
-          <button className="btn btn-primary w-full">
-            Buy Now
+          <button onClick={()=>handleCart()} className="btn btn-primary w-full" disabled={selected}>
+            {selected ? "Purchased" : "Purchase Now"}
           </button>
         </div>
 

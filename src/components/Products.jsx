@@ -2,7 +2,7 @@ import { Check } from 'lucide-react';
 import React, { use } from 'react';
 import ProductCard from './ProductCard';
 
-const Products = ({productsPromise}) => {
+const Products = ({productsPromise , cart , setCart}) => {
    const products=use(productsPromise);
    console.log(products)
     
@@ -18,7 +18,7 @@ const Products = ({productsPromise}) => {
                 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
   {
     products.map(product => (
-     <ProductCard product={product}></ProductCard>
+     <ProductCard product={product} cart={cart} setCart={setCart}></ProductCard>
     ))
   }
 </div>

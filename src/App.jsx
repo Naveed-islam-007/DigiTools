@@ -23,6 +23,7 @@ const productsPromise = getProducts();
 function App() {
 
    const [activeTab, setActiveTab] = useState("Products");
+   const [cart,setCart]=useState([])
 
   return (
     <>
@@ -39,17 +40,20 @@ function App() {
                 <div className='flex gap-20 justify-center'>
                  
                   <button onClick={()=>setActiveTab('Products')} className={activeTab==='Products'? `btn btn-primary p-7 rounded-4xl`:`btn btn-outline p-7 rounded-4xl`}>Products</button>
-                <button onClick={()=>setActiveTab('Cart')} className={activeTab==='Cart'? `btn btn-primary p-7 rounded-4xl`:`btn btn-outline p-7 rounded-4xl`}>Cart</button>
+                <button onClick={()=>setActiveTab('Cart')} className={activeTab==='Cart'? `btn btn-primary p-7 rounded-4xl`:`btn btn-outline p-7 rounded-4xl`}>cart ({cart.length})</button>
                 </div>
             </div>
     
 
-    {
-      activeTab==="Products" && <Products productsPromise={productsPromise} activeTab={activeTab} setActiveTab={setActiveTab}></Products>}
-      {activeTab === "Cart" && <Carts></Carts>}
-     <Started></Started>
-     <Pricing></Pricing>
-
+ {activeTab === "Products" ? (
+  <>
+    <Products productsPromise={productsPromise} cart={cart} setCart={setCart} />
+    <Started />
+    <Pricing />
+  </>
+) : activeTab === "Cart" && (
+  <Carts cart={cart} setCart={setCart}/>
+)}
      
 
    <Footer></Footer>

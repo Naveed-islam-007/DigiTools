@@ -2,7 +2,7 @@ import { ShoppingCart } from 'lucide-react';
 import React from 'react';
 import { ToastContainer } from 'react-toastify';
 
-const Navbar = () => {
+const Navbar = ({cart}) => {
     return (
       <>
      <div class="navbar bg-base-100 shadow-sm">
@@ -25,7 +25,12 @@ const Navbar = () => {
   </div>
   <div class="navbar-end">
     <div className='flex flex-col md:flex-row items-center gap-5 lg:mr-50'>
-        <ShoppingCart></ShoppingCart>
+        <div className="indicator">
+  <span className="indicator-item badge badge-error badge-sm">
+    {cart.length}
+  </span>
+  <ShoppingCart className="w-6 h-6 cursor-pointer" />
+</div>
         <span className='font-semibold'>Login</span>
     <button className='p-5 bg-[#4F39F6] text-white rounded-2xl'>Get Started</button>
     </div>

@@ -1,5 +1,6 @@
 import { ShoppingCart } from 'lucide-react';
 import React from 'react';
+import { ToastContainer } from 'react-toastify';
 
 const Navbar = () => {
     return (
@@ -30,7 +31,7 @@ const Navbar = () => {
     </div>
   </div>
 </div>
-      
+    <ToastContainer></ToastContainer>
       
       </>
     );

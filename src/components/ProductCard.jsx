@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Check } from 'lucide-react';
+import { toast } from 'react-toastify';
 
 const ProductCard = ({ product,cart,setCart }) => {
 
@@ -7,9 +8,11 @@ const ProductCard = ({ product,cart,setCart }) => {
     setSelected(true)
      const isFound = cart.find((item) => item.id === product.id);
      if(isFound){
+      toast.error("Already exists")
       return;
      }
      setCart([...cart,product])
+     toast.success('Item added to cart')
 
   }
 

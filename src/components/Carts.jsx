@@ -9,6 +9,12 @@ const Carts = ({cart, setCart}) => {
     setCart(filteredArray);
   }
 
+  const clearCart=()=>{
+    setCart([]);
+    return;
+
+  }
+
   return (
     <div className='min-h-[1150px] place-items-center pt-10'>
       <div className='min-h-[860px] w-full md:w-3/4 text-center space-y-5'>
@@ -38,7 +44,7 @@ const Carts = ({cart, setCart}) => {
               <div>${totalPrice}</div>
             </div>
 
-            <button className='btn btn-primary w-full'>Proceed to checkout</button>
+            <button onClick={()=>clearCart()} className='btn btn-primary w-full'>Proceed to checkout</button>
           </>
         )}
       </div>

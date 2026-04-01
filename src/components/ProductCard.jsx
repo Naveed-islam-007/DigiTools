@@ -45,7 +45,7 @@ const ProductCard = ({ product,cart,setCart }) => {
 
         <div className='mt-10'>
           <button onClick={()=>handleCart()} className="btn btn-primary w-full" disabled={selected}>
-            {selected ? "Purchased" : "Purchase Now"}
+            {selected ? "Added To Cart" : "Buy Now"}
           </button>
         </div>
 

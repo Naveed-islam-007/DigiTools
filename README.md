@@ -1,16 +1,16 @@
-# React + Vite
+Digitools is a modern digital products marketplace where users can browse and purchase premium tools like AI writers, design kits, and productivity suites. It features a dynamic cart system with real-time updates, smooth tab switching between products and cart, and instant toast notifications for every action.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Technologies:
 
-Currently, two official plugins are available:
+React.js
+Tailwind CSS & DaisyUI
+JavaScript (ES6+)
+ReactJS
+React-Toastify
+Vite
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+3 Features:
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛒 Smart Cart System — Add and remove products dynamically with live cart count updates in the navbar
+🔔 Toast Notifications — Real-time feedback using React-Toastify for every cart action (add, remove, checkout)
+📱 Fully Responsive — Optimized layout across mobile, tablet, and desktop screens

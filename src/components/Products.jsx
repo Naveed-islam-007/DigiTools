@@ -8,7 +8,7 @@ const Products = ({productsPromise , cart , setCart}) => {
     
     return (
         <>
-        <div className='min-h-[950px]  place-items-center pt-10'>
+        <div className='min-h-[950px]  flex jusify-center pt-10'>
             
 
           

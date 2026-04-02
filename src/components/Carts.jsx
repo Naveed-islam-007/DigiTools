@@ -19,7 +19,7 @@ const Carts = ({cart, setCart}) => {
   }
 
   return (
-    <div className='min-h-[1150px] place-items-center pt-10'>
+    <div className='min-h-[1150px] flex justify-center pt-10'>
       <div className='min-h-[860px] w-full md:w-3/4 text-center space-y-5'>
         <h1 className='text-4xl mt-5 font-semibold'>Your Cart</h1>
 
